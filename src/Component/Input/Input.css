@@ -1,0 +1,71 @@
+.input input {
+  display: block;
+  width: 95.5%;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  /* margin:auto; */
+}
+
+.input .one_input:focus {
+  box-shadow: 0px 0px 4px 2px black;
+  border: none;
+
+}
+
+.chk ul {
+  list-style: none;
+  padding: 0%;
+}
+
+.chk div {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  text-align: left;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.desiable {
+  font-weight: normal;
+  min-height: 20px;
+  padding-left: 30px;
+  color: rgb(92, 92, 92);
+}
+
+.todo {
+  text-decoration: line-through;
+}
+
+.chk input {
+  position: absolute;
+  /* margin: 0px; */
+  width: auto;
+}
+
+.complete_task{
+  height: 30px;
+}
+
+.complete_lable{
+  text-align: center;
+  margin: 20px 0px;
+  position: absolute;
+  left: 38%;
+  width: auto;
+  color: rgb(92, 92, 92);
+}
+
+.remove{
+  text-align: right;
+  margin-left: 15px;
+  font-size: 13px;
+  padding: 0px 0px;
+  color: rgb(70, 69, 69);
+  position: absolute;
+  left: 88%;
+}

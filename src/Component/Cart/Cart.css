@@ -1,0 +1,18 @@
+.cart{
+    width: 600px;
+    /* height: 400px; */
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(221, 221, 221);
+    margin: 20px 50px 0px  35%;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    position: relative;
+}
+
+.cart h1{
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(92, 92, 92);
+}
